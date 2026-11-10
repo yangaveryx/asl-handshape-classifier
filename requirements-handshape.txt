@@ -1,0 +1,5 @@
+# Tested with Python 3.12; legacy Holistic is required (newer MediaPipe releases removed it).
+numpy<2
+torch>=2.6,<3
+omegaconf>=2.3,<3
+mediapipe==0.10.21

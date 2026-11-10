@@ -1,0 +1,46 @@
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+.venv*/
+venv/
+env/
+.pytest_cache/
+*.egg-info/
+.DS_Store
+# Credentials and machine configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Restricted datasets, manifests and model weights
+*.csv
+*.tsv
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+*.tflite
+*.task
+*.mp4
+*.webm
+*.mov
+*.avi
+# Local upstream checkouts and generated artifacts
+Modeling-ASL-Phonology/
+asl_summer26/
+pretrained_models/
+training_data/
+openhands/
+data_processing/handshape_pilot/
+*-overlays*/
+*-result*.json
+baseline-*/
+runs/
+results/
+*.log
+slurm-*.out
+slurm-*.err
