@@ -37,7 +37,3 @@ Videos, dataset metadata, pilot manifests, model weights, environments and
 credentials are intentionally excluded. Git ignores CSVs and common binary/data
 formats. Store those locally or on approved cluster storage. This repository
 alone cannot run inference until the documented upstream assets are available.
-
-Start with a private repository. No blanket license is assigned to upstream
-code, checkpoints or datasets; preserve their attribution and check applicable
-terms before redistribution.
